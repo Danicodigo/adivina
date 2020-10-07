@@ -20,6 +20,7 @@
         Has acertado, el número secreto es el {{ num }}
     </ion-card-content>
     </ion-card>
-    <ion-button expand="block" (click)="compruebaNumero()">Adivina</ion-button>     
+    <ion-button expand="block" (click)="compruebaNumero()">Adivina</ion-button>
+    <ion-button *ngIf="mayorMenor==''" expand="block" (click)="reinicia()">Volver a Jugar</ion-button>     
   </div>
 </ion-content>

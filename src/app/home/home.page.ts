@@ -30,4 +30,11 @@ export class HomePage {
       }
     }
   }
+  reinicia(){
+    // reiniciamos las variables
+    this.num = null;
+    this.mayorMenor = '...';
+    this.numSecret = this.numAleatorio(0,100);
+  }
+ 
 }
